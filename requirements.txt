@@ -1,0 +1,10 @@
+requests
+bs4
+webbrowser
+re
+string
+random
+urllib.request
+validators
+repeat
+ptimer
