@@ -15,7 +15,7 @@ for i in range(500):
             # Print URL and validate it
             print(url)
             print (validators.url(url))
-            print(urllib.request.urlopen('https://google.com').getcode())
+            print(urllib.request.urlopen(url).getcode())
             
         except Exception: # Replace Exception with something more specific.
             continue
